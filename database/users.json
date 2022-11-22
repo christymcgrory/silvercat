@@ -1,59 +1,9 @@
 {
   "users": [
     {
-      "username": "test5",
-      "password": "234324",
-      "balance": 100
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "balance": 100
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "balance": 100
-    },
-    {
-      "username": "test",
-      "password": "test",
-      "balance": 100
-    },
-    {
-      "username": "sdfsfd",
-      "password": "sdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdffsf",
-      "password": "sdfsdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdffsfsdfsdf",
-      "password": "sdfsdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdffsfsdfsdf",
-      "password": "sdfsdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdfsdfsd",
-      "password": "sdfsdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdfsdfsd",
-      "password": "sdfsdfsdf",
-      "balance": 100
-    },
-    {
-      "username": "sdfsdfsdfsdf",
-      "password": "sdfsdfsdf",
-      "balance": 100
+    "username": "silvercat",
+    "password": "secret",
+    "balance": 100
     }
   ]
 }
