@@ -1,34 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Silvercat Coding Test
 
-## Getting Started
+### Running The Code
+```sh
+# Clone the repo
+git clone https://github.com/christymcgrory/silvercat
 
-First, run the development server:
+# Install dev dependencies
+npm i or yarn or pnpm i
 
-```bash
+# Run the development server
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Used
+Built with Typescript.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This demo utilises several frameworks to ease the development of boilerplate code:
+ - Next.js
+ - React
+ - Mantine (Theme Library)
+ - LowDB (Local JSON database)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Development Progress
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+ - [x] API Routes `pages/api`
+	 - [ ] User Login (Partially done) `pages/api/user/login.tsx`
+	 - [x] User Create Account `pages/api/user/create.tsx`
+	 - [ ] Balance Transfer (Done but untested) `pages/api/balance/transfer.tsx`
+ - [x] Pages
+	 - [x] Home Page (unstyled) `pages/index.tsx`
+	 - [ ] Login Page `pages/login.tsx`
+	 - [x] Account Creation Page `pages/create.tsx`
+ - [ ] Tests
 
-## Learn More
+**Summary**
 
-To learn more about Next.js, take a look at the following resources:
+The majority of the work completed is around the business logic, building out an account creation api route and page to start with. Similar work would have been completed on the Login page/logic given additional time. A balance transfer route exists and should work in theory but is currently untested.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Future Work**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Future work would be focused on:
 
-## Deploy on Vercel
+ - Improving serverside input validation + sanitising
+ - providing password encryption by default
+ - Adding additional checks before transferring funds
+ - Implementing unit tests + e2e tests
+ - Improving the frontend, with logged in user info/profile pages and consistent styling 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
